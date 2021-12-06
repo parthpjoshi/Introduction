@@ -1,0 +1,181 @@
+* {
+    padding 5px, 5px, 5px, 5px;
+  
+}
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar {
+    display: flex;
+    background:rgb(0, 0, 0) url('../img/bgimg.jpg');
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    position: sticky;
+    top: 0px;
+    
+}
+
+.nav-list {
+    display: flex;
+    width: 50%;
+    padding-bottom: 10px;
+}
+.nav-list li {
+    padding: 25px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav-list li a:active {
+    color: green;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color:gray;
+}
+
+.right-nav {
+    width: 50%;
+    text-align: right;
+    padding-top: 35px;
+}
+
+#Search {
+    border-radius: 10px;
+    background-color: lightsteelblue;
+}
+
+#background {
+    background : rgb(0, 0, 0) url("bgimg.jpg")
+}
+
+.box-main {
+    display: flex;
+    padding-left: 2cm;
+}
+
+.firstHalf {
+    width: 50%;
+}
+
+
+.text-small {
+    margin-left: 1cm;
+    font size: 250px;
+    font-family: 'Otomanopee One', sans-serif;
+    padding-left: 2cm;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.text-big {
+    font-size: 1cm;
+    font-style: italic;
+    font-family: 'Pattaya', sans-serif;
+    color: royalblue;
+    text-shadow: 1px 1px;
+    padding-left: 4cm;
+    padding-top: 1cm;
+    animation-name : example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from { color:royalblue;}
+    to {color: brown;}
+}
+
+
+
+.secondHalf {
+    width: 50%;
+}
+
+.secondHalf img {
+    padding-top: 2cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-bottom: 2cm;
+    border-radius: 80%;
+}
+
+.Head {
+    padding-top: 1cm;
+    padding-left: 2cm;
+    display: flex;
+    font-size: 1cm;
+    font-family: 'Fredoka One', cursive;
+    justify-content: right;
+    padding-right: 12cm;
+}
+
+.content {
+    display: flex;
+    font-family: 'Lobster Two', cursive;
+    font-size: larger;
+    text-align: center;
+    justify-content: right;
+    padding-right: 2cm;
+}
+.instagram {
+    background:rgb(245, 242, 242) url("..//img/insta.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 2cm;
+}
+
+.linkedin {
+    background:rgb(245, 242, 242) url("..//img/link.png");
+    background-position-x : 1cm;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 2cm;
+}
+.Twitter {
+    background:rgb(245, 242, 242) url("..//img/twitter.png");
+    background-position-x: 3cm;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 2cm;
+    margin-bottom: 1cm;
+    left: 2cm;
+}
+.contactus {
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.contacthead {
+    margin-top: 50px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 25px;
+    top: 10px;
+}
+.form {
+    margin-left: 1cm;
+    padding-top: 50px;
+}
+.submit{
+    align-self: center;
+    font-size: medium;
+    border-radius: 2px;
+    margin-left: 1cm;
+}
